@@ -1,0 +1,15 @@
+.main{
+    padding-left: 300px;
+    margin: 0 auto;
+}
+
+.main_1{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+}
+
+img{
+    max-width: 200px;
+    margin: 0 auto;
+}
