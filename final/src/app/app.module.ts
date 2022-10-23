@@ -18,7 +18,7 @@ import { StickersComponent } from './stickers/stickers.component';
     HomeComponent,
     AboutComponent,
     GiftsComponent,
-    StickersComponent
+    StickersComponent,
   ],
   imports: [
     BrowserModule,

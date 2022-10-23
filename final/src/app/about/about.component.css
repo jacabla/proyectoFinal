@@ -8,6 +8,7 @@
 h3{
     padding-top: 50px;
     padding-bottom: 30px;
+    font-family: 'Yellowtail', cursive;
 }
 
 .second_div{
@@ -43,3 +44,6 @@ p{
     padding: 30px;
     text-align-last: center;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Diplomata+SC&family=Yellowtail&display=swap');
+

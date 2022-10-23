@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavegacionComponent implements OnInit {
 
+  github(){
+    alert("Te estamos abriendo una pagina a lado para que no abandone esta.")
+  }
   constructor() { }
 
   ngOnInit(): void {
