@@ -1,0 +1,45 @@
+.main{
+    padding-left: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.second_div{
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+img{
+    max-width: 150px;
+    padding-right: 30px;
+}
+
+.second_info{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.img_info{
+    max-width: 700px;
+}
+
+p{
+    text-align: justify;
+    padding: 30px;
+    text-align-last: center;
+}

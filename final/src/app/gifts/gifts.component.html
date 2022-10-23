@@ -1,7 +1,14 @@
 <div class="main">
+  <div>
+    <h3>Trending Gifs!</h3>
+  </div>
     <div class="main_1">
         <div class="grid" *ngFor="let item of gifs">
           <img [src]="item.images.original.url" class="card-img-top" alt="card-group-image" alt="gifs">
+          <div class="grid_info">
+            <h4 *ngIf="item">Titulo: {{item.title}}</h4>
+            <p *ngIf="item"> Tipo: {{item.type}}</p>
+          </div>
         </div>
       </div>
 </div>

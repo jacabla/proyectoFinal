@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  footer(){
+    alert("Profe estos links no los configuree entonces lo devuelven al home jeje :)")
+  }
+
   constructor() { }
 
   ngOnInit(): void {
